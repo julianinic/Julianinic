@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Julian Inic – Sekundärmarkt Wien</title>
+
+<style>
+:root {
+  --primary: #8c6bb1;
+  --text: #2b2b2b;
+  --muted: #6f6f6f;
+  --bg: #faf9f7;
+  --card: #ffffff;
+  --border: #e6e3ee;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background: linear-gradient(#f6f4f8, #faf9f7);
+  color: var(--text);
+}
+
+section {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.buttons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.button {
+  padding: 14px 26px;
+  border-radius: 999px;
+  font-size: 16px;
+  border: 1px solid var(--border);
+  background: white;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.button.primary {
+  background: var(--primary);
+  color: white;
+  border: none;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 16px;
+  padding: 28px;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 32px;
+}
+
+.step span {
+  font-size: 32px;
+  color: var(--primary);
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.tag {
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: #eeeaf4;
+  font-size: 14px;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  font-family: inherit;
+  font-size: 16px;
+}
+
+footer {
+  padding: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--muted);
+}
+</style>
+</head>
+
+<body>
+
+<section>
+  <div class="container">
+    <h1>Julian Inic</h1>
+    <p>Unabhängige:r Spezialist:in für Sekundärmärkte</p>
+    <p>Design, Mode und Sammlerobjekte – bewertet, selektiert und positioniert.<br>
+    Für Privatpersonen, Sammler:innen und Räumungsfirmen.</p>
+
+    <div class="buttons">
+      <a href="#kontakt" class="button primary">Anfrage senden</a>
+      <a href="#leistungen" class="button">Leistungsprofil</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Profil</h2>
+    <p>
+      Ich bewerte, selektiere und positioniere Objekte aus Nachlässen,
+      Konvoluten und Sekundärmärkten – schnell, materialkundlich fundiert
+      und marktorientiert.
+    </p>
+    <p>
+      Mein Schwerpunkt liegt auf europäischen Marken und dem DACH-Raum,
+      vom späten 19. Jahrhundert bis in die Gegenwart.
+    </p>
+    <p>
+      Über zehn Jahre Erfahrung im Galeriebereich für zeitgenössische Kunst.
+      Diskret, effizient, verlässlich.
+    </p>
+  </div>
+</section>
+
+<section id="leistungen">
+  <div class="container">
+    <h2>Leistungen</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Bewertung und Selektion</h3>
+        <p>Markt- und Preisbewertung einzelner Objekte sowie kuratorische
+        Selektion wertvoller Stücke aus größeren Beständen.</p>
+      </div>
+
+      <div class="card">
+        <h3>Konvolute und Nachlässe</h3>
+        <p>Strukturierte Bearbeitung von Sammlungen und Nachlässen – von
+        der Erstbegutachtung bis zur vollständigen Erschließung.</p>
+      </div>
+
+      <div class="card">
+        <h3>Sekundärmarkt-Strategie</h3>
+        <p>Individuelle Verkaufsstrategie: eBay, Auktionshäuser,
+        Direktverkauf – passend zu Objekt und Markt.</p>
+      </div>
+
+      <div class="card">
+        <h3>Begleitung für Räumungsfirmen</h3>
+        <p>Fachliche Unterstützung bei der Identifikation und Verwertung
+        relevanter Objekte vor Ort.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Vorgehen</h2>
+
+    <div class="steps">
+      <div class="step">
+        <span>01</span>
+        <p>Sichtung<br>Erste Begutachtung vor Ort oder anhand von Fotos</p>
+      </div>
+      <div class="step">
+        <span>02</span>
+        <p>Einordnung<br>Material, Epoche, Marke und Marktrelevanz</p>
+      </div>
+      <div class="step">
+        <span>03</span>
+        <p>Preisrahmen<br>Realistische Einschätzung auf Basis aktueller Marktdaten</p>
+      </div>
+      <div class="step">
+        <span>04</span>
+        <p>Umsetzung<br>Verkauf über den passenden Kanal</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Fokus-Kategorien</h2>
+
+    <div class="tags">
+      <div class="tag">Krawatten und Accessoires</div>
+      <div class="tag">Designobjekte</div>
+      <div class="tag">Keramik</div>
+      <div class="tag">Bücher und Papier</div>
+      <div class="tag">Spiel- und Sammelkarten</div>
+      <div class="tag">Schmuck und Uhren</div>
+    </div>
+  </div>
+</section>
+
+<section id="kontakt">
+  <div class="container">
+    <h2>Kontakt</h2>
+    <p>Schreiben Sie mir kurz, was Sie haben – Fotos reichen – und ob es
+    um Einzelstücke oder ein Konvolut geht.</p>
+
+    <form>
+      <input type="text" placeholder="Ihr Name">
+      <input type="email" placeholder="Ihre E-Mail-Adresse">
+      <textarea rows="5" placeholder="Ihre Nachricht"></textarea>
+      <button class="button primary" type="submit">Anfrage senden</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  © Julian Inic · Wien
+</footer>
+
+</body>
+</html>
